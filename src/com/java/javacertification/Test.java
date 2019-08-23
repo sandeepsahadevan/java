@@ -1,4 +1,4 @@
-package com.java.javaproject;
+package com.java.javacertification;
 
 public class Test {
 

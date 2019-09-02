@@ -3,7 +3,8 @@ package com.java.javacertification.chp_1_building_blocks;
 import java.util.Random;
 
 public class MainMethod {
-    private String variable = "first";
+    private String variable = "first" , second_variable = "second", notInitialized;
+    private int number = 1_00_000;
     { System.out.println(" variable first "+ variable); }
 
     public MainMethod(){
@@ -17,6 +18,7 @@ public class MainMethod {
         System.out.println("Test java file .. "+ r.nextInt(60));
         System.out.println(Integer.MAX_VALUE);
         System.out.println("variable main "+ mm.variable);
+        System.out.println(" "+ mm.second_variable);
     }
 
 }

@@ -10,6 +10,12 @@ public class MainMethod {
     public MainMethod(){
         variable = "constructor";
         System.out.println(" variable constructor "+ variable);
+        {
+            String inside_block="inside Block";
+            System.out.println("inside Block "+ inside_block);
+            System.out.println(" variable constructor "+ variable);
+        }
+        //System.out.println("inside Block "+ inside_block); // DOES NOT COMPILE
     }
     public static void main(String... args) {
         MainMethod mm = new MainMethod();

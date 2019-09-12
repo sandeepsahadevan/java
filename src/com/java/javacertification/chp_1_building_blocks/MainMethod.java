@@ -5,6 +5,7 @@ import java.util.Random;
 public class MainMethod {
     private String variable = "first" , second_variable = "second", notInitialized;
     private int number = 1_00_000;
+
     { System.out.println(" variable first "+ variable); }
 
     public MainMethod(){

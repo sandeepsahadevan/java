@@ -25,6 +25,7 @@ public class DateTime {
         System.out.println(dateTime1.toString());
         LocalDateTime dateTime2 = LocalDateTime.of(date1, time1);
         System.out.println(dateTime2.toString());
+        LocalDate.of(2015, Month.JANUARY, 31);
     }
 
     public static void main(String... args){

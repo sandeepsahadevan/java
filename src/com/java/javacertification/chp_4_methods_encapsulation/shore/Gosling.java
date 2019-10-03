@@ -5,7 +5,8 @@ public class Gosling extends Bird {
         floatInWater(); // calling protected member
         System.out.println(text); // calling protected member
     }
-    public static void main(String... agrs){
+
+    public static void main(String... agrs) {
         Gosling g = new Gosling();
         g.swim();
     }

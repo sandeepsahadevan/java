@@ -24,6 +24,9 @@ public class YetMoreInitializationOrder {
     static {
         new YetMoreInitializationOrder();
     }
+    static {
+        add(7);
+    }
 
     {
         add(8);

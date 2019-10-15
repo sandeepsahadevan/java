@@ -1,6 +1,4 @@
-package com.java.javacertification;
-
-import com.java.javacertification.chp_5_class_design.Rodent;
+package com.java.javacertification.chp_5_class_design;
 
 public class Capybara extends Rodent {
     String  override = "Child Variable";

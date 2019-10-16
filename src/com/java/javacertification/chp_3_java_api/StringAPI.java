@@ -3,6 +3,17 @@ package com.java.javacertification.chp_3_java_api;
 import java.util.ArrayList;
 
 public class StringAPI {
+
+    private void compareString(){
+        String s1 = "Java";
+        String s2 = "Java";
+        StringBuilder sb1 = new StringBuilder();
+        sb1.append("Ja").append("va");
+        System.out.println(s1 == s2);
+        System.out.println("s1.equals(s2) ::::::::: "+s1.equals(s2));
+        System.out.println(sb1.toString() == s1);
+        System.out.println("sb1.toString().equals(s1) ::::::::: "+sb1.toString().equals(s1));
+    }
     private void subString(){
         String string = "animals";
         System.out.println(string.substring(3)); // mals
@@ -40,9 +51,10 @@ public class StringAPI {
         int[][] java = new int[1][1];
         ArrayList<String> list1 = new ArrayList<>();
         list1.size();
+        si.compareString();
+        //si.subString();
+        //si.indexOf();
+        //si.testString();
 
-        si.subString();
-        si.indexOf();
-        si.testString();
     }
 }

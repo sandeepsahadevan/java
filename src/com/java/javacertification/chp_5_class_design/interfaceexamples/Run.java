@@ -4,4 +4,6 @@ public interface Run {
     public default int getSpeed() {
         return 10;
     }
+    abstract Object interviewConducted();
+
 }

@@ -7,4 +7,7 @@ public class Cat implements Walk, Run{
     public int getSpeed() {
         return 1;
     }
+    public Integer interviewConducted() {
+        return 1;
+    }
 }

@@ -46,12 +46,22 @@ public class StringAPI {
         if ( a.equals("2cfalse")) System.out.println("equals");
     }
 
+    void changeString() {
+        StringBuilder sb= new StringBuilder();
+        sb.append("hello"); // makes change
+
+        //sb = "howdy"; // Doesn't make change
+        System.out.println("Equals :::: "+sb.equals("hello"));
+        System.out.println("Equals :::: "+sb.equals(sb));
+    }
+
     public static void main(String... args){
         StringAPI si = new StringAPI();
         int[][] java = new int[1][1];
         ArrayList<String> list1 = new ArrayList<>();
         list1.size();
         si.compareString();
+        si.changeString();
         //si.subString();
         //si.indexOf();
         //si.testString();

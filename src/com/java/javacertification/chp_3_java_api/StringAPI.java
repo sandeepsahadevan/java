@@ -62,6 +62,22 @@ public class StringAPI {
         list1.size();
         si.compareString();
         si.changeString();
+
+        double []dbls =  new double[]{1.0,2.1,3.5};
+
+
+        dbls[1] = 10.5;
+        System.out.print(dbls[1] + dbls[2]);
+
+        int ar[][] = {{1,11},{1},{1,11}};
+        for(int x = 0;x < ar.length;x++){
+            for(int y : ar[x]) System.out.print(y);
+        }
+
+        int x = -10;
+        int y = 10;
+        System.out.print(x%(-3));
+        System.out.print("A");
         //si.subString();
         //si.indexOf();
         //si.testString();

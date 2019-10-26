@@ -1,5 +1,6 @@
 package com.java.javacertification.chp_3_java_api;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -12,6 +13,11 @@ public class ArrayAndList {
         array[0] = "new"; // [new, test]
         for (String b : array) System.out.print(b + " "); // new test
         //list.remove(1); // throws UnsupportedOperation Exception
+        ArrayList<String> aa = new ArrayList<String>();
+
+        aa = new ArrayList(list);
+        aa.add("SAndeep");
+        System.out.println(aa); // 2
     }
 
     public static void main(String... args){

@@ -1,6 +1,7 @@
 package com.java.javacertification.chp_3_java_api;
 
 import java.time.*;
+import java.util.Date;
 
 public class DateTime {
 
@@ -26,6 +27,8 @@ public class DateTime {
         LocalDateTime dateTime2 = LocalDateTime.of(date1, time1);
         System.out.println(dateTime2.toString());
         LocalDate.of(2015, Month.JANUARY, 31);
+
+        System.out.println(new Date());
     }
 
     public static void main(String... args){

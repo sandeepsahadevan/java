@@ -7,6 +7,7 @@ public class LogicalOperator {
         int z = 8/2*(2+2);
         System.out.println(x);
         System.out.println(z);
+        if(true) if(false);
     }
 
     public  static void main(String... args){

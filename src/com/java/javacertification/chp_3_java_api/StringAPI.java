@@ -1,6 +1,7 @@
 package com.java.javacertification.chp_3_java_api;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class StringAPI {
 
@@ -81,6 +82,13 @@ public class StringAPI {
         //si.subString();
         //si.indexOf();
         //si.testString();
+        List names = new ArrayList<>();
+        names.add("Jedd");
+        names.add("Lomin");
+
+        String name = (String)names.get(0);
+
+        System.out.println(names);
 
     }
 }

@@ -11,7 +11,7 @@ public class Elephant extends Mammal {
         super(10);
     }
 
-    void method(){
+    final void method(){
         System.out.println("child");
     }
 

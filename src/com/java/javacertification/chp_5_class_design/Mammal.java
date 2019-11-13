@@ -5,7 +5,7 @@ public class Mammal {
     }
 
     void method(){
-        System.out.println("private");
+        System.out.println("parent");
     }
 
     void parentMethod(){

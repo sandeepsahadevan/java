@@ -12,6 +12,8 @@ public class StaticMethod {
         koala1.count = 6;
         koala2.count = 5;
         System.out.println(Koala.count);
+        koala2 = null;
+        System.out.println(koala2.count);
     }
 
     public static void main(String... args){

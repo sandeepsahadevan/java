@@ -14,6 +14,18 @@ public class StringAPI {
         System.out.println("s1.equals(s2) ::::::::: " + s1.equals(s2));
         System.out.println(sb1.toString() == s1);
         System.out.println("sb1.toString().equals(s1) ::::::::: " + sb1.toString().equals(s1));
+
+        String s3 ="abc";
+        String s4 ="ab";
+        String s5 = s4+"c";
+        String s6 = "ab"+"c";
+        System.out.println("s3==s4 -> "+ (s3==s4));
+        System.out.println("s3==s5 -> "+ (s3==s5));
+        System.out.println("s3==s6 -> "+ (s3==s6));
+        System.out.println(System.identityHashCode(s3));
+        System.out.println(System.identityHashCode(s4));
+        System.out.println(System.identityHashCode(s5));
+        System.out.println(System.identityHashCode(s6));
     }
 
     private void subString() {

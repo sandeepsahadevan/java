@@ -12,7 +12,7 @@ public class StringAPI {
         sb1.append("Ja").append("va");
         System.out.println(s1 == s2);
         System.out.println("s1.equals(s2) ::::::::: " + s1.equals(s2));
-        System.out.println(sb1.toString() == s1);
+        System.out.println("sb1.toString() == s1 -> "+sb1.toString() == s1);
         System.out.println("sb1.toString().equals(s1) ::::::::: " + sb1.toString().equals(s1));
 
         String s3 ="abc";

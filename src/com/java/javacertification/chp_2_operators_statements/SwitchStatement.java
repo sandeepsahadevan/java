@@ -42,6 +42,9 @@ public class SwitchStatement {
             case 0:
                 System.out.println("Sunday");
                 break;
+            case 5:
+                System.out.println("Friday");
+                break;
             case 6:
                 System.out.println("Saturday");
                 break;
@@ -83,7 +86,20 @@ public class SwitchStatement {
         SwitchStatement o = new SwitchStatement();
         int i =5;
         o.switchBreak(i);
-        o.SwitchNoBreak(i);
-        o.switchForloop();
+        //o.SwitchNoBreak(i);
+        //o.switchForloop();
+
+        String fruit = new String(new char[] {'M', 'a', 'n', 'g', 'o'});
+        switch (fruit) {
+            default:
+                System.out.println("ANY FRUIT WILL DO");
+            case "Apple":
+                System.out.println("APPLE");
+            case "Mango":
+                System.out.println("MANGO");
+            case "Banana":
+                System.out.println("BANANA");
+                break;
+        }
        }
 }

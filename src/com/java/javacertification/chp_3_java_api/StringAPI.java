@@ -111,6 +111,21 @@ public class StringAPI {
         String name = (String) names.get(0);
 
         System.out.println(names);
+        String s = new String("JavaSE8Certification");
+        s=s.substring(2,10);
+        System.out.println(s);
+        s=s.substring(2,7);
+        System.out.println(s);
+        s=s.substring(2,5);
+
+        System.out.println(s);
+        String s1 = "Hello";
+        String t = new String(s1);
+        if ("Hello".equals(s1)) System.out.println("one");
+        if (t == s1) System.out.println("two");
+        if (t.equals(s1)) System.out.println("three");
+        if ("Hello" == s1) System.out.println("four");
+        if ("Hello" == t) System.out.println("five");
 
     }
 }

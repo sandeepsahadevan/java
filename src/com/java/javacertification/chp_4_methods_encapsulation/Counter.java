@@ -14,7 +14,7 @@ public class Counter {
         //two = 4; // DOES NOT COMPILE
     }
 
-    public Counter() {
+    Counter() {
         count++;
     }
 

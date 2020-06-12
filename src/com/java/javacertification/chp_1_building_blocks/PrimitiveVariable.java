@@ -15,7 +15,7 @@ public class PrimitiveVariable {
         System.out.println(doublevalue);
         //add(10.0, new Double(10.0));
     }
-    private static void add(double d1, double d2) {
+    protected static void add(double d1, double d2) {
         System.out.println("double version: " + (d1 + d2));
     }
 

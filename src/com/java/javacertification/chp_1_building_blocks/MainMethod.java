@@ -18,6 +18,7 @@ public class MainMethod {
             System.out.println("inside Block " + inside_block);
             System.out.println(" variable constructor " + variable);
         }
+        PrimitiveVariable.add(1.0,2.0);
         //System.out.println("inside Block "+ inside_block); // DOES NOT COMPILE
     }
 
